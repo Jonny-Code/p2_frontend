@@ -27,4 +27,4 @@ steps:
     azureSubscription: 'Azure subscription 1(dfd44896-aad0-4c42-be8a-2aa3c1d10490)'
     appType: 'webApp'
     WebAppName: 'PersonalBlurbsFrontend'
-    packageForLinux: 'dist/'
+    packageForLinux: '$(appDir)/dist/*'
