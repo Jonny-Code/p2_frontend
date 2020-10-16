@@ -6,6 +6,9 @@
 trigger:
 - main
 
+variables:
+  appDir: BlurbClient
+
 pool:
   vmImage: 'ubuntu-latest'
 
