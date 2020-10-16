@@ -15,6 +15,7 @@ steps:
     versionSpec: '12.x'
 
 - script: |
+    cd BlurbClient
     npm install -g @angular/cli
     npm install
     ng build --prod
